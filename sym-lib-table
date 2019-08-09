@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DTMF_Receive)(type Legacy)(uri ${KIPRJMOD}/DTMF_Receive.lib)(options "")(descr ""))
+)
