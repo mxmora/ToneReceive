@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name DTMF_Receive)(type Legacy)(uri ${KIPRJMOD}/DTMF_Receive.lib)(options "")(descr ""))
-  (lib (name VX7805-500)(type Legacy)(uri /Users/mmora/Downloads/VX7805-500-2/VX7805-500.lib)(options "")(descr ""))
+  (lib (name VX7805-500)(type Legacy)(uri /Users/mmora/Dev/ToneReceive/VX7805-500/VX7805-500.lib)(options "")(descr ""))
 )

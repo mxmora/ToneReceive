@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ToneReceive-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2180,27 +2179,5 @@ F 2 "" H 14050 7550 50  0001 C CNN
 F 3 "" H 14050 7550 50  0001 C CNN
 	1    14050 7550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Pack04_SIP RN?
-U 1 1 5DBF6471
-P 10550 9500
-F 0 "RN?" V 9833 9481 50  0000 C CNN
-F 1 "R_Pack04_SIP" V 9924 9481 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 11225 9500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10550 9500 50  0001 C CNN
-	1    10550 9500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_SIP RN?
-U 1 1 5DBB38C2
-P 10400 5450
-F 0 "RN?" V 9683 5431 50  0000 C CNN
-F 1 "R_Pack04_SIP" V 9774 5431 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 11075 5450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10400 5450 50  0001 C CNN
-	1    10400 5450
-	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
