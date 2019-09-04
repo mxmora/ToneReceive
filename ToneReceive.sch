@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ToneReceive-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -19,7 +20,7 @@ U 1 1 5D4A961C
 P 6200 2450
 F 0 "U2" H 6200 2200 50  0000 C CNN
 F 1 "74HC238" H 6200 2875 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W10.16mm_LongPads" H 6200 2450 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 6200 2450 50  0001 C CNN
 F 3 "" H 6200 2450 50  0001 C CNN
 	1    6200 2450
 	1    0    0    -1  
@@ -2178,6 +2179,50 @@ F 1 "+5V" H 14065 7723 50  0000 C CNN
 F 2 "" H 14050 7550 50  0001 C CNN
 F 3 "" H 14050 7550 50  0001 C CNN
 	1    14050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D7A923C
+P 14900 800
+F 0 "H1" H 15000 846 50  0000 L CNN
+F 1 "MountingHole" H 15000 755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14900 800 50  0001 C CNN
+F 3 "~" H 14900 800 50  0001 C CNN
+	1    14900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D7AA738
+P 14900 1000
+F 0 "H2" H 15000 1046 50  0000 L CNN
+F 1 "MountingHole" H 15000 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14900 1000 50  0001 C CNN
+F 3 "~" H 14900 1000 50  0001 C CNN
+	1    14900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D7AA93C
+P 14900 1200
+F 0 "H3" H 15000 1246 50  0000 L CNN
+F 1 "MountingHole" H 15000 1155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14900 1200 50  0001 C CNN
+F 3 "~" H 14900 1200 50  0001 C CNN
+	1    14900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D7AAD71
+P 14900 1400
+F 0 "H4" H 15000 1446 50  0000 L CNN
+F 1 "MountingHole" H 15000 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14900 1400 50  0001 C CNN
+F 3 "~" H 14900 1400 50  0001 C CNN
+	1    14900 1400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
